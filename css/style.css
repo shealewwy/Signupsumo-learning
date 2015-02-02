@@ -41,20 +41,29 @@ img {
 
 }
 
+.main-logo {
+	padding: 0px;
+}
+
 .main-header {
 	font-size: 1.25em;
 	margin: auto;
 
+
+}
+
+.nav {
+	color: #FFFFFF;
 }
 
 .nav ul {
+	padding-top:40px; 
+	padding-bottom:40px; 
+
+	margin-top: 0;
 	text-align: right;
-	color: #FFFFFF;
-	padding-top: 40px;
-	padding-bottom: 40px;
 	padding-right: 10%;
 	background: #FFBD28;
-	margin-top: 0;
 	
 }
 
