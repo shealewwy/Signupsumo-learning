@@ -1,0 +1,178 @@
+
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background color: #FAFBFB;
+	font-size: 1em;
+	margin: 0;
+	font-family: MuseoSansRounded-300;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+
+h1 {
+font-family: MuseoSansRounded-300;
+font-size: 2.25em;
+color: #C5D0D9;
+line-height: 1.3;
+
+}
+
+h2 {
+font-family: MuseoSansRounded-700;
+font-size: 1.25em;
+color: #000000;
+line-height: 24px;
+text-transform: uppercase;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+
+/* Navigation ---------------*/
+
+}
+
+.main-header {
+	font-size: 1.25em;
+	margin: auto;
+
+}
+
+.nav ul {
+	text-align: right;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 10%;
+	background: #FFBD28;
+	margin-top: 0;
+	
+}
+
+.nav li {
+	font-family: MuseoSansRounded-700;
+	font-size: 1.5em; /* 24/16 */
+	text-transform: uppercase;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #FFE3A4;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+ul li
+{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: inline;
+    margin-left: 20px;
+}
+
+.top-influencer1 {
+text-align: center;
+background: #FFFFFF;
+border: 1px solid #C5D0D9;
+float: left;
+width: 33.3%;
+border-radius: 8px 8px 0px 0px;
+height: 260px;
+}
+.top-influencer2 {
+text-align: center;
+background: #FFFFFF;
+border: 1px solid #C5D0D9;
+float: left;
+width: 33.3%;
+border-radius: 8px 8px 0px 0px;
+height: 260px;
+}
+
+.top-influencer3 {
+text-align: center;
+background: #FFFFFF;
+border: 1px solid #C5D0D9;
+float: left; 
+width: 33.3%;
+border-radius: 8px 8px 0px 0px;
+height: 260px;
+}
+
+
+.main-footer {
+padding-top: 20%;
+padding-bottom: 20%;
+height: 400px;
+background: #FFFFFF;
+background-color: #27C9D2;
+width: 100%;
+margin-top: 500px;
+
+}
+
+/* Layout Styles ---------------*/
+.primary-content{
+	width: 100%;
+	max-width: 960px;
+	margin:auto;
+}
+
+.Influecer-content {
+	width: 80%;
+	margin: auto;
+}
+
+
+/* Icons ---------------*/
+
+.twitter-icon {
+	width: ;
+}
+
+/* floated columns---------------*/
+
+.setup-script {
+	width: 46.5%;
+	margin: auto;
+	float: left;
+}
+
+.setup-description {
+	width: 46.5%;
+	margin: auto;
+	float: right;
+	padding-top: 80px;
+}
+
+/* floate clearfix---------------*/
+
+.group:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+
+/* media queries---------------*/
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 480px){
+	body {
+	}
+}
