@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 body {
-	background color: #FAFBFB;
+	background-color: #FAFBFB;
 	font-size: 1em;
 	margin: 0;
 	font-family: MuseoSansRounded-300;
@@ -17,8 +17,9 @@ body {
 h1 {
 font-family: MuseoSansRounded-300;
 font-size: 2.25em;
-color: #C5D0D9;
-line-height: 1.3;
+color: #000000;
+line-height: 2.8;
+text-transform: uppercase;
 
 }
 
@@ -49,8 +50,8 @@ img {
 .nav ul {
 	text-align: right;
 	color: #FFFFFF;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	padding-right: 10%;
 	background: #FFBD28;
 	margin-top: 0;
@@ -88,7 +89,7 @@ text-align: center;
 background: #FFFFFF;
 border: 1px solid #C5D0D9;
 float: left;
-width: 33.3%;
+width: 30%;
 border-radius: 8px 8px 0px 0px;
 height: 260px;
 }
@@ -97,7 +98,7 @@ text-align: center;
 background: #FFFFFF;
 border: 1px solid #C5D0D9;
 float: left;
-width: 33.3%;
+width: 30%;
 border-radius: 8px 8px 0px 0px;
 height: 260px;
 }
@@ -106,8 +107,8 @@ height: 260px;
 text-align: center;
 background: #FFFFFF;
 border: 1px solid #C5D0D9;
-float: left; 
-width: 33.3%;
+float: right; 
+width: 30%;
 border-radius: 8px 8px 0px 0px;
 height: 260px;
 }
@@ -120,7 +121,7 @@ height: 400px;
 background: #FFFFFF;
 background-color: #27C9D2;
 width: 100%;
-margin-top: 500px;
+float: left;
 
 }
 
@@ -132,10 +133,20 @@ margin-top: 500px;
 }
 
 .Influecer-content {
-	width: 80%;
+	width: 100%;
 	margin: auto;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 70px;
 }
 
+.codesnip {
+padding: 5%;
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 8px;
+color:#B8B8B8;
+}
 
 /* Icons ---------------*/
 
@@ -155,7 +166,7 @@ margin-top: 500px;
 	width: 46.5%;
 	margin: auto;
 	float: right;
-	padding-top: 80px;
+	padding-top: 40px;
 }
 
 /* floate clearfix---------------*/
